@@ -13,7 +13,7 @@ CIFAR-10 데이터셋으로 학습하여 이미지 분류를 수행합니다.
 │   ├── compare_resnet.py        # PyTorch 공식 ResNet18과 비교 실험
 │   └── compare_results.md       # 비교 실험 결과
 ├── notebooks/
-│   └── resnet_train.ipynb       # Colab 학습 노트북
+│   └── resnet_train.ipynb       # Kaggle 학습 노트북
 ├── results/                     # 학습 결과 (그래프, 모델 등)
 └── requirements.txt
 ```
@@ -24,8 +24,8 @@ CIFAR-10 데이터셋으로 학습하여 이미지 분류를 수행합니다.
 
 ## 실행 방법
 
-### Google Colab (GPU)
-`notebooks/resnet_train.ipynb`을 Colab에서 열어 실행
+### Kaggle Notebook (GPU)
+`notebooks/resnet_train.ipynb`을 Kaggle Notebook에서 열어 실행
 
 ### 로컬
 ```bash
